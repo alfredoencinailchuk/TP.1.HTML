@@ -1,0 +1,32 @@
+body{background-color:gray;}
+header{padding:20px;
+       background-color:#333;
+       text-align: center;
+       color: gold;
+}
+     
+nav{display:flex;
+    flex-direction:row;
+    background-color: white;
+}
+nav a{color:gold;
+      padding: 14px 20px;
+      text-decoration: none;
+      }
+.content{ display:flex;
+         flex-wrap:wrap;
+       flex-direction:column;
+    }
+aside{flex-grow:30%;
+       background-color: beige;
+        padding: 20px;
+   }
+section{flex-grow:70%;
+        background-color:khaki;
+        padding: 20px;
+  }
+
+footer{padding:20px;
+       text-align:center;
+       background-color: palevioletred;
+  }
